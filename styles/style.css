@@ -228,6 +228,7 @@
     }
     .top-container, .course {
         height: 100%;
+        padding-right: 25px;
     }
     .top-container h2, .course h2 {
         padding-left: 0px;
@@ -262,6 +263,7 @@
     }
     .top-container, .course {
         height: 100%;
+        padding-right: 25px;
     }
     .top-container h2, .course h2 {
         padding-left: 0px;
