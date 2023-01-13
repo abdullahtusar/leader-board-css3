@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style link -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font awsome link -->
+    <script src="https://kit.fontawesome.com/02d47d3bb2.js" crossorigin="anonymous"></script>
     <title>Leader Board</title>
 </head>
+
 <body>
-    
+    <!-- header part with navigation start -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/icons/logo.png" alt="">
+                <h2>Idea</h2>
+            </div>
+            <div class="menu-container">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Works</li>
+                    <li><img src="images/icons/profile.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- header part with navigation end -->
+    <!-- main part with various section start -->
+    <main class="main-container">
+        <section class="top-container">
+            <div class="top-player-container">
+                <h2>Top Player</h2>
+                <div class="players">
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-1.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>john Smith</h3>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-2.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>Pro Rasel</h3>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-3.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>Maruf Ahmed</h3>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-4.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>Abu Sufian</h3>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-5.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>Mujahid</h3>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player-image">
+                            <img src="images/players/player-6.png" alt="">
+                        </div>
+                        <div class="player-nmae">
+                            <h3>Shajedul Karim</h3>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="top-blog-container">
+                    <h2>Top Blog</h2>
+                    <div class="blog">
+                        <div class="blogs">
+                            <div class="blog-image">
+                                <img src="images/blogs/blog-1.png" alt="">
+                            </div>
+                            <div class="blog-info">
+                                <h3>13 of My Favorite <br>UI/UX Goodies</h3>
+                                <p>By <Span>Danny Sapio</Span></p>
+                            </div>
+                        </div>
+                        <div class="blogs">
+                            <div class="blog-image">
+                                <img src="images/blogs/blog-2.png" alt="">
+                            </div>
+                            <div class="blog-info">
+                                <h3>UI cheat sheet: <br>list vs grids</h3>
+                                <p>By <Span>Tess Gadd</Span></p>
+                            </div>
+                        </div>
+                        <div class="blogs">
+                            <div class="blog-image">
+                                <img src="images/blogs/blog-3.png" alt="">
+                            </div>
+                            <div class="blog-info">
+                                <h3>7 typography tips <br>for interface design</h3>
+                                <p>By <Span>Jeremiah Lam</Span></p>
+                            </div>
+                        </div>
+                        <div class="blogs">
+                            <div class="blog-image">
+                                <img src="images/blogs/blog-4.png" alt="">
+                            </div>
+                            <div class="blog-info">
+                                <h3>Your logo is <br>copied</h3>
+                                <p>By <Span>Ferdinand Vogler</Span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- course container section html -->
+        <section class="course">
+            <h2>Lates Course</h2>
+            <div class="all-courses-container">
+                <div class="course-start">
+                    <img src="images/courses/course-1.png" alt="">
+                    <h3>React - The Complete <br>Guide 2020</h3>
+                    <p>Reed Krakoff.</p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i id="empty" class="empty fa-solid fa-star"></i>
+                        </div>
+                        <p>4.5</p>
+                        <div class="time">
+                            <img src="images/icons/clock.png" alt="">
+                            <p>01:30 hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-start">
+                    <img src="images/courses/course-2.png" alt="">
+                    <h3>Powerpoint 2020  <br>Master Powerpoint Cour</h3>
+                    <p>Walter Scott</p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i id="empty" class="empty fa-solid fa-star"></i>
+                        </div>
+                        <p>4.3</p>
+                        <div style="background-color: #FEE5DF;" class="time">
+                            <img src="images/icons/clock2.png" alt="">
+                            <p style="color:#ED6B4F">01:20 hr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-start">
+                    <img src="images/courses/course-3.png" alt="">
+                    <h3>The Complete JavaScript <br>Course 2020</h3>
+                    <p>Reed Krakoff.</p>
+                    <div class="rating">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i id="empty" class="empty fa-solid fa-star"></i>
+                        </div>
+                        <p>4.5</p>
+                        <div class="time">
+                            <img src="images/icons/clock.png" alt="">
+                            <p>01:30 hr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main part with various section end -->
 </body>
+
 </html>

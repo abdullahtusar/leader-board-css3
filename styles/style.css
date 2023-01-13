@@ -1,0 +1,204 @@
+/* FONT STYLE IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Merriweather+Sans:ital,wght@0,400;0,500;1,400&family=Open+Sans:wght@400;800&family=Pacifico&family=Poppins:wght@500&family=Signika+Negative:wght@700&family=Work+Sans:wght@400;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*------------------------
+ header section styles
+ -------------------------- */
+ header{
+    background-color: #562EFF;
+    color: white;
+    padding: 15px 530px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+ }
+ .logo h2{
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .logo img{
+    width: 40px;
+    height: 50px;
+ }
+ .menu-container{
+    
+ }
+ .menu-container ul{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+ }
+ .menu-container ul> li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .menu-container ul> li> img{
+    Width:51px;
+    Height:51px;
+ }
+/* ------------------------------------
+-------main part with various section styles---- */
+.main-container{
+    background-color: #F3F1FF;
+    display: grid;
+    justify-content: center;
+}
+.top-container, .course{
+    background-color: white;
+    width: 870px;
+    height: 679px;
+    border-radius: 5px;
+    margin-top: 36px;
+    margin-bottom: 21px;
+}
+.top-container h2, .course h2{
+    color: #562EFF;
+    padding-top: 33px;
+    padding-left: 33px;
+}
+.top-container hr{
+    border: 1px solid #D1D1D1;
+    margin: 0px 33px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player-image img{
+    height: 56px;
+    width: 56px;
+}
+.player-nmae h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+/* ========================
+-------top bolg section stylles---------- */
+.top-blog-container{
+
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blogs{
+    display: flex;
+    gap: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.blog-image img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+
+}
+.blog-info h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+}
+.blog-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-info p> span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* ===============course styes======== */
+.course{
+    height: 375px;
+    margin-top: 0px;
+}
+.all-courses-container{
+    display: flex;
+    margin-top: 11px;
+    margin-left: 28px;
+}
+.course-start{
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:16px;
+}
+.course-start img{
+    width: 226px;
+    height: 104px;
+    border-radius: 5px;
+}
+.course-start h3{
+    padding-top: 18px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.course-start p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #ED6B4F;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    padding-top: 19px;
+}
+.rating p{
+    color: #A2A2A2;
+}
+.star i{
+    color: #FFC014;
+    Width: 12px;
+    Height: 11.81px;
+    padding-right: 3px;
+}
+#empty{
+    color:#d8d8d8;
+    padding-right: 10px;
+}
+.time{
+    display: flex;
+    gap: 6px;
+    background: #FFE4E8;
+    border-radius: 14px;
+    padding: 5px 6px;
+    margin-left: 25px;
+}
+.time p{
+    color:#FF4A60;
+}
+.time img{
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    
+}
